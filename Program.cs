@@ -13,6 +13,11 @@ namespace CrimeAnalyzer
                 Console.WriteLine("Crime Analyzer <crime_csv_file_path> <report_file path>");
                 Environment.Exit(1);
             }
+            // always start at zero, then one and so on.
+            string dataFilePath = args[0];
+            string reportFilePath = args[1];
+
+            List<CrimeStats> crimeStatsList = null;
         }
     }
 }
